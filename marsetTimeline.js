@@ -13,7 +13,7 @@ const svg = d3.select("#marsetTimeline")
     .attr("transform",`translate(${margin.left},${margin.top})`);
 
 //Read the data
-d3.csv("data/timelineMarset_EN.csv",
+d3.csv("https://raw.githubusercontent.com/newton-c/marset_timeline/main/data/timelineMarset_EN.csv",
 //d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/connectedscatter.csv",
 
   // When reading the csv, I must format variables:
